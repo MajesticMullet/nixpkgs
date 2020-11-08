@@ -32,7 +32,7 @@ buildPythonPackage rec {
     pytest
   ];
 
-  meta = {
+  meta = with lib; {
     homepage = "https://github.com/altair-viz/altair-transform";
     description = "Python evaluation of Altair/Vega-Lite transforms";
     license = licenses.mit;
