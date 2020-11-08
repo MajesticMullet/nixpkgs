@@ -278,7 +278,7 @@ in {
 
   altair = callPackage ../development/python-modules/altair { };
 
-  altair-transform = callPackage ../development/python-modules/altair { };
+  altair-transform = callPackage ../development/python-modules/altair-transform { };
 
   amazon_kclpy = callPackage ../development/python-modules/amazon_kclpy { };
 
